@@ -1,0 +1,64 @@
+    .logo img{
+        width:80px ;
+        height:50px ;
+        
+    }
+    ul,li{
+        margin: 0;
+        padding: 0;
+
+    }
+    .header{
+        background-color: #101446;
+        padding:10px;
+    }
+    
+    .header-right ul li{
+        display: inline-block;
+    }
+    .header-right ul li a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size:15px;
+        padding:15px 20px;
+        transition: .3s;
+        margin-left: -5px;
+    }
+    .header-right ul li:hover a{
+        background-color: blue;
+    }
+    .banner{
+        background-image:url(./intro-bg.jpg) ;
+        background-position:center ;
+        padding:200px 0 ;
+        background-size: cover;
+        background-attachment:fixed ;
+        background-repeat: no-repeat;
+
+    }
+    .div a{
+        border-radius:5px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .service {
+        background-color:#808080;
+        padding:20px 30px ;
+    }
+    .about{
+        background-color:#c2d4ea;
+        padding:40px 20px ;
+    }
+    .about ul li{
+        list-style: none;
+    }
+    .me{
+        padding-top:50px ;
+    }
+    .me span{
+        font-size:20px ;
+    }
+    .im{
+        padding-top:20px ;
+    }
